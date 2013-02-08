@@ -1,3 +1,7 @@
+// Gravity Simulator Example:
+//
+// http://www.bdeva.org/examples/gravity.html
+// 
 (function() {
 var gravitySimulator;
 var tmpCircle; 
