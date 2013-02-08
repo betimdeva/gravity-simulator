@@ -1,0 +1,46 @@
+
+<!DOCTYPE HTML>
+<html>
+<title>Gravity Simulator</title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<style>
+html, body {
+  width:100%;
+  height:100%;
+  overflow:hidden;
+}
+
+#myCanvas {
+  position:absolute;
+  top:170px;
+  left:0px;
+}
+
+#top {
+  width:100%;
+  height:150px;
+}
+
+
+</style>
+
+<head>
+
+<script type="text/javascript" src="gravity.js"></script>
+
+<body>
+<div id="top">
+<h3>Gravity Simualtor --  Newton's second law, and law of universal gravitation</h3>
+<p>Generate objects in three steps:
+<ol>
+<li>click on a desired location to set the center of the object.</li>
+<li>move the mouse to set the radius of the object, and fix it by clicking</li>
+<li>move the mouse to set the velocity vector, and continue the simulation by clicking.</li>
+</ol>
+</div>
+<canvas id="myCanvas"><img src="example.png" /></canvas>
+<br>
+
+</body>
+</html>
+
